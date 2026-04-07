@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-const API_URL = "http://127.0.0.1:8000";
+import { API_URL } from "../config";
 
 function EditPost() {
     const { id } = useParams();

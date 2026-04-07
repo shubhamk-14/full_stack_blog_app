@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from "react";
 
-const API_URL = "http://127.0.0.1:8000";
+import { API_URL } from "../config";
 
 function AllUsers() {
     const [users, setUsers] = useState([]);
