@@ -6,7 +6,6 @@ from auth import router as auth_router
 from routers import posts as posts_router
 from routers import users as users_router
 
-
 models.Base.metadata.create_all(bind=database.engine)
 
 app = FastAPI(title="Shubh Blog API")
